@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadidlar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#" class="logo">Jadid<span>lar</span></a>
+
+      <button class="burger" id="burger" aria-label="Menyu"><span></span><span></span><span></span></button>
+
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#jadidlar">Jadidlar</a></li>
+          <li class="has-sub"><a href="#manbalar">Manbalar</a>
+            <ul class="sub"><li><a href="#manbalar">Arxiv hujjatlari</a></li><li><a href="#manbalar">Matbuot</a></li></ul>
+          </li>
+          <li class="has-sub"><a href="#izlanishlar">Izlanishlar</a>
+            <ul class="sub"><li><a href="#izlanishlar">Asarlar</a></li><li><a href="#izlanishlar">Maqolalar</a></li><li><a href="#izlanishlar">Dissertatsiyalar</a></li><li><a href="#izlanishlar">Esdaliklar</a></li></ul>
+          </li>
+          <li class="has-sub"><a href="#til-imlo">Til va imlo</a>
+            <ul class="sub"><li><a href="#til-imlo">Asarlar</a></li><li><a href="#til-imlo">Maqolalar</a></li><li><a href="#til-imlo">Hikmatlar</a></li></ul>
+          </li>
+          <li class="has-sub"><a href="#muxtoriyat">Turkiston muxtoriyati</a>
+            <ul class="sub"><li><a href="#muxtoriyat">Asarlar</a></li><li><a href="#muxtoriyat">Maqolalar</a></li><li><a href="#muxtoriyat">She’rlar</a></li><li><a href="#muxtoriyat">Esdaliklar</a></li></ul>
+          </li>
+          <li class="has-sub"><a href="#voqealar">Voqealar</a>
+            <ul class="sub"><li><a href="#voqealar">Yangiliklar</a></li></ul>
+          </li>
+          <li class="has-sub"><a href="#media">Ko‘r-eshit-o‘qi</a>
+            <ul class="sub"><li><a href="#media">Ko‘ruvlar</a></li><li><a href="#media">Suratlar</a></li><li><a href="#media">Eshituvlar</a></li></ul>
+          </li>
+          <li><a href="#haqimizda">Biz haqimizda</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-tools">
+        <a href="#" class="icon-btn plain" aria-label="Kirish">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5"/><path d="M21 12H9"/></svg>
+        </a>
+        <button class="icon-btn search-btn" id="searchBtn" aria-label="Qidirish">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="3"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        </button>
+        <div class="lang" id="lang">
+          <button class="lang-btn">O‘z ▾</button>
+          <ul class="lang-list"><li>O‘z</li><li>Ўз</li><li>Ru</li><li>En</li></ul>
+        </div>
+      </div>
+    </div>
+    <form class="search-box" id="searchBox"><input type="search" placeholder="Qidirish..."><button type="submit">Izlash</button></form>
+  </header>
+
+  <main>
+    <!-- 2. HERO SLIDER -->
+    <section class="hero" id="hero">
+      <div class="hero-slides" id="heroSlides"></div>
+      <button class="arrow hero-prev" id="heroPrev" aria-label="Oldingi">&#10094;</button>
+      <button class="arrow hero-next" id="heroNext" aria-label="Keyingi">&#10095;</button>
+    </section>
+
+    <!-- 3. YANGILIKLAR -->
+    <section class="section news" id="voqealar">
+      <div class="container">
+        <div class="carousel" data-carousel>
+          <button class="arrow small prev" aria-label="Oldingi">&#10094;</button>
+          <div class="track news-track" id="newsTrack"></div>
+          <button class="arrow small next" aria-label="Keyingi">&#10095;</button>
+          <div class="dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. JADIDLAR -->
+    <section class="section" id="jadidlar">
+      <div class="container">
+        <h2 class="section-title">Jadidlar</h2>
+        <div class="carousel" data-carousel>
+          <button class="arrow small prev" aria-label="Oldingi">&#10094;</button>
+          <div class="track portrait-track" id="portraitTrack"></div>
+          <button class="arrow small next" aria-label="Keyingi">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. MANBALAR -->
+    <section class="section tabbed" id="manbalar" data-section="manbalar">
+      <div class="container">
+        <h2 class="section-title">Manbalar</h2>
+        <div class="tabs"></div>
+        <div class="cards"></div>
+      </div>
+    </section>
+
+    <!-- 6. IZLANISHLAR -->
+    <section class="section tabbed" id="izlanishlar" data-section="izlanishlar">
+      <div class="container">
+        <h2 class="section-title">Izlanishlar</h2>
+        <div class="tabs"></div>
+        <div class="cards"></div>
+      </div>
+    </section>
+
+    <!-- 7. TIL VA IMLO -->
+    <section class="section tabbed" id="til-imlo" data-section="tilimlo">
+      <div class="container">
+        <h2 class="section-title">Til va imlo</h2>
+        <div class="tabs"></div>
+        <div class="cards"></div>
+      </div>
+    </section>
+
+    <!-- 8. TURKISTON MUXTORIYATI -->
+    <section class="section tabbed" id="muxtoriyat" data-section="muxtoriyat">
+      <div class="container">
+        <h2 class="section-title">Turkiston muxtoriyati</h2>
+        <div class="tabs"></div>
+        <div class="cards"></div>
+      </div>
+    </section>
+
+    <!-- 9. KO'R-ESHIT-O'QI -->
+    <section class="section tabbed" id="media" data-section="media" data-type="video">
+      <div class="container">
+        <h2 class="section-title">Ko‘r-eshit-o‘qi</h2>
+        <div class="tabs"></div>
+        <div class="cards video-cards"></div>
+        <div class="dots static-dots"></div>
+      </div>
+    </section>
+
+    <!-- 10. FOYDALI HAVOLALAR -->
+    <section class="section links" id="havolalar">
+      <div class="container">
+        <h2 class="section-title">Foydali havolalar</h2>
+        <div class="carousel" data-carousel>
+          <div class="track links-track" id="linksTrack"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 11. FOOTER -->
+  <footer class="footer" id="haqimizda">
+    <div class="container footer-grid">
+      <a href="#" class="logo footer-logo">Jadid<span>lar</span></a>
+      <div>
+        <h4>Email</h4>
+        <a href="mailto:info@example.uz">info@example.uz</a>
+      </div>
+      <div>
+        <h4>Telefon</h4>
+        <a href="tel:+998000000000">+998 00 000 00 00</a>
+      </div>
+      <div>
+        <h4>Ijtimoiy tarmoq</h4>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">in</a>
+          <a href="#" aria-label="Telegram">&#10148;</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>«Jadidlar» Barcha huquqlar himoyalangan</span>
+      <span>© Copyright 2024</span>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Yuqoriga">&#8963;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

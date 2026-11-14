@@ -1,0 +1,502 @@
+[
+  {
+    "id": 56,
+    "fullname": "Mahmudxo‘ja Behbudiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Mahmudxoja_Behbudiy.jpg"
+  },
+  {
+    "id": 7,
+    "fullname": "Munavvarqori Abdurashidxonov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Munavvar_5VD2p8g.jpg"
+  },
+  {
+    "id": 31,
+    "fullname": "Abdurauf Fitrat",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Abdurauf_Fitrat_NrcgW0e.jpg"
+  },
+  {
+    "id": 10,
+    "fullname": "Abdulla Avloniy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/8cVFdh7BAKyyukKSO9QAW0s7twe5krP2eDWmSPFj.jpg"
+  },
+  {
+    "id": 5,
+    "fullname": "Abdulhamid Cho‘lpon",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/cholpon_wE3WVig.jpg"
+  },
+  {
+    "id": 59,
+    "fullname": "Ubaydullaxo‘ja Asadullaxo‘jayev",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Ubaydullaxoja_Asadullaxojayev.jpg"
+  },
+  {
+    "id": 38,
+    "fullname": "Abdulla Qodiriy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Abdulla_Qodiriy_39LON6y.jpg"
+  },
+  {
+    "id": 12,
+    "fullname": "Ashurali Zohiriy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Ashurali_Zohiriy.jpg"
+  },
+  {
+    "id": 44,
+    "fullname": "Muhammadsharif So‘fizoda",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Muhammadsharif_Sozfizoda_B2zf9MV.jpg"
+  },
+  {
+    "id": 15,
+    "fullname": "Abduqodir Shakuriy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Abduqodir_Shakuriy.jpg"
+  },
+  {
+    "id": 25,
+    "fullname": "Sadriddin Ayniy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Sadriddin_Ayniy.jpg"
+  },
+  {
+    "id": 8,
+    "fullname": "Hamza Hakimzoda Niyoziy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Hamza_Hakimzoda_Niyoziy_E3JZNNb.jpg"
+  },
+  {
+    "id": 49,
+    "fullname": "Tavallo",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Tavallo.jpg"
+  },
+  {
+    "id": 14,
+    "fullname": "Obidjon Mahmudov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Obidjon_Mahmudov_7adBbGD.jpg"
+  },
+  {
+    "id": 33,
+    "fullname": "Is'hoqxon Ibrat",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Ishoqxon_Ibrat.jpg"
+  },
+  {
+    "id": 58,
+    "fullname": "G‘ulom Zafariy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Gulom_Zafariy_tVloMc6.jpg"
+  },
+  {
+    "id": 224,
+    "fullname": "Muxtor Saidjonov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%9C%D1%83%D1%85%D1%82%D0%BE%D1%80_%D0%A1%D0%B0%D0%B8%D0%B4%D0%B6%D0%BE%D0%BD%D0%BE%D0%B2.jpg"
+  },
+  {
+    "id": 244,
+    "fullname": "Mirzo Abdulvohid Burhonov - Munzim",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%9C%D1%83%D0%BD%D0%B7%D0%B8%D0%BC.jpg"
+  },
+  {
+    "id": 156,
+    "fullname": "Said Ahmad Vasliy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_W4ze2xk.jpeg"
+  },
+  {
+    "id": 64,
+    "fullname": "Hoji Muin",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Hoji_Muin_h1AJBEn.jpg"
+  },
+  {
+    "id": 34,
+    "fullname": "Musojon Saidjonov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Muso_Saidjonov_VZr6sNl.jpg"
+  },
+  {
+    "id": 39,
+    "fullname": "Majid Qodiriy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Majid_Qodiriy_UACdgeF.jpg"
+  },
+  {
+    "id": 41,
+    "fullname": "Po‘lat Soliyev",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Polat_Soliyev_6A6tWta.jpg"
+  },
+  {
+    "id": 19,
+    "fullname": "Botu",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Botu.jpg"
+  },
+  {
+    "id": 11,
+    "fullname": "G‘ozi Yunus",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Gozi_Yunus_JaEZvOs.jpg"
+  },
+  {
+    "id": 28,
+    "fullname": "Vadud Mahmud",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Vadud_Mahmud_n0XlnC2.jpg"
+  },
+  {
+    "id": 236,
+    "fullname": "Ibrohim Davron",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Ibrohim_Davron_hxOrWIn.jpg"
+  },
+  {
+    "id": 22,
+    "fullname": "Polvonniyoz hoji Yusupov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Polvonniyoz_hoji_Yusupov.jpg"
+  },
+  {
+    "id": 57,
+    "fullname": "Shokirjon Rahimiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Shokirjon_Rahimiy.jpg"
+  },
+  {
+    "id": 52,
+    "fullname": "Rafiq Mo‘min",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Rafiq_Momin.jpg"
+  },
+  {
+    "id": 18,
+    "fullname": "Elbek",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Elbek_iF2Yoz8.jpg"
+  },
+  {
+    "id": 201,
+    "fullname": "Bobooxun Salimov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%91%D0%BE%D0%B1%D0%BE%D0%BE%D1%85%D1%83%D0%BD_%D0%A1%D0%B0%D0%BB%D0%B8%D0%BC%D0%BE%D0%B2.jpg"
+  },
+  {
+    "id": 4,
+    "fullname": "Usmon Xoʻja",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/UsmonxojaPolatxojayev.jpg"
+  },
+  {
+    "id": 117,
+    "fullname": "Abdulla Badriy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_yKNETV2.jpeg"
+  },
+  {
+    "id": 9,
+    "fullname": "Qayum Ramazon",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Qayum_Ramazon.jpg"
+  },
+  {
+    "id": 35,
+    "fullname": "Lutfilla Olimiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Lutfilla_Olimiy_Ofzpo2k.jpg"
+  },
+  {
+    "id": 47,
+    "fullname": "Mirmuhsin Shermuhammedov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Mirmuhsin_Shermuhammedov_ZX7aC4J.jpg"
+  },
+  {
+    "id": 60,
+    "fullname": "Nosirxonto‘ra Kamolxonto‘ra",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Nosirxontora_kamolxontora.jpg"
+  },
+  {
+    "id": 30,
+    "fullname": "Karimbek Norbekov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Karimbek_Norbekov.jpg"
+  },
+  {
+    "id": 269,
+    "fullname": "Abduvosiq Muhammedov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%90%D0%B1%D0%B4%D1%83%D0%B2%D0%BE%D1%81%D0%B8%D2%9B_AQ7Gbi8.png"
+  },
+  {
+    "id": 27,
+    "fullname": "Mo‘minjon Muhammadjon o‘g‘li",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Mominjon_Muhammadjon_ogli.jpg"
+  },
+  {
+    "id": 65,
+    "fullname": "Bekjon Rahmon",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Bekjon_Rahmon_aTAFklq.jpg"
+  },
+  {
+    "id": 237,
+    "fullname": "Said Ahroriy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%90%D2%B3%D1%80%D0%BE%D1%80%D0%B8.jpg"
+  },
+  {
+    "id": 51,
+    "fullname": "Sattor Jabbor (Ertoy)",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Sattor_Jabbor_Km0Z9QS.jpg"
+  },
+  {
+    "id": 1,
+    "fullname": "Otajon Hoshim",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/otajonxoshim_qUJ69KZ.jpg"
+  },
+  {
+    "id": 306,
+    "fullname": "Sayfulg‘abid Majidov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png"
+  },
+  {
+    "id": 308,
+    "fullname": "Sidqiy Xondayliqiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Xondayliqiy.jpg"
+  },
+  {
+    "id": 300,
+    "fullname": "Porso Xo‘jayev",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%9F%D0%BE%D1%80%D1%81%D0%BE_0tImTtq.jpg"
+  },
+  {
+    "id": 298,
+    "fullname": "Sadriddinxo‘ja Sharifxo‘jayev",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%A1%D0%B0%D0%B4%D1%80%D0%B8%D0%B4%D0%B4%D0%B8%D0%BD%D1%85%D1%9E%D0%B6%D0%B0.jpg"
+  },
+  {
+    "id": 139,
+    "fullname": "Abdurahmon Sayyoh Toshkandiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_rG5YWVf.jpeg"
+  },
+  {
+    "id": 299,
+    "fullname": "Niyoz Rajabzoda",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%9D%D0%B8%D1%91%D0%B7.jpg"
+  },
+  {
+    "id": 221,
+    "fullname": "Hoshim Shoyiq",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D2%B2%D0%BE%D1%88%D0%B8%D0%BC_%D0%A8%D0%BE%D0%B9%D0%B8%D2%9B.jpg"
+  },
+  {
+    "id": 116,
+    "fullname": "Ismoil Obidiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_4UbWxkc.jpeg"
+  },
+  {
+    "id": 154,
+    "fullname": "Muhammad Yusuf Xoji Doiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_cMOeGlT.jpeg"
+  },
+  {
+    "id": 230,
+    "fullname": "Zahiriddin Qosimov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%97%D0%B0%D2%B3%D0%B8%D1%80%D0%B8%D0%B4%D0%B4%D0%B8%D0%BD_%D2%9A%D0%BE%D1%81%D0%B8%D0%BC%D0%BE%D0%B2.jpg"
+  },
+  {
+    "id": 53,
+    "fullname": "Dadamirza Shayxov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Dadamirza_Shayxov_kevgJaP.jpg"
+  },
+  {
+    "id": 211,
+    "fullname": "Komilbek Norbekov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%9A%D0%BE%D0%BC%D0%B8%D0%BB%D0%B1%D0%B5%D0%BA_%D0%9D%D0%BE%D1%80%D0%B1%D0%B5%D0%BA%D0%BE%D0%B2.jpg"
+  },
+  {
+    "id": 85,
+    "fullname": "Mirmulla Shermuhammedov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_BM1ubG7.jpeg"
+  },
+  {
+    "id": 83,
+    "fullname": "Rahmat Rafiqov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_GWEAwVw.jpeg"
+  },
+  {
+    "id": 20,
+    "fullname": "Xayriniso Majidxonova",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Xayriniso_Majidxonova_MORlUWq.jpg"
+  },
+  {
+    "id": 21,
+    "fullname": "Solih Muhammedov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Solih_Muhammedov.jpg"
+  },
+  {
+    "id": 271,
+    "fullname": "Saidnosir Mirjalilov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%A1%D0%B0%D0%B8%D0%B4%D0%BD%D0%BE%D1%81%D0%B8%D1%80_7Ymo8my.jpg"
+  },
+  {
+    "id": 32,
+    "fullname": "Ilhomjon Inog‘omjonov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Ilhomjon_Inogomjonov.jpg"
+  },
+  {
+    "id": 88,
+    "fullname": "Orifjon Olimjonov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_qN9IpzK.jpeg"
+  },
+  {
+    "id": 55,
+    "fullname": "Abduvahob Murodiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Abduvahob_murodiy.jpg"
+  },
+  {
+    "id": 289,
+    "fullname": "Nizomiddinxo‘ja Asomiddinxo‘ja o‘g‘li",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%9D%D0%B8%D0%B7%D0%BE%D0%BC%D0%B8%D0%B4%D0%B4%D0%B8%D0%BD%D1%85%D0%BE%D0%B4%D0%B6%D0%B0.png"
+  },
+  {
+    "id": 281,
+    "fullname": "Yoqubxo‘ja Bahriddinxo‘ja o‘g‘li",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%81%D2%9B%D1%83%D0%B1%D1%85%D1%9E%D0%B6%D0%B0.jpg"
+  },
+  {
+    "id": 307,
+    "fullname": "Ahmadjon Ibrohimov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/LOGO.jpeg"
+  },
+  {
+    "id": 309,
+    "fullname": "Latifjon Madali (Muhammadali) Qoziyev",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/LOGO_9xBEj4q.jpeg"
+  },
+  {
+    "id": 231,
+    "fullname": "Sa’dulla Tursunxo‘jayev",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%A1%D0%B0%D1%8A%D0%B4%D1%83%D0%BB%D0%BB%D0%B0_%D0%A2%D1%83%D1%80%D1%81%D1%83%D0%BD%D1%85%D1%9E%D0%B6%D0%B0%D0%B5%D0%B2_oEaVgm8.jpg"
+  },
+  {
+    "id": 229,
+    "fullname": "Abduvahob Ibodiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%90%D0%B1%D0%B4%D1%83%D0%B2%D0%B0%D2%B3%D0%BE%D0%B1_%D0%98%D0%B1%D0%BE%D0%B4%D0%B8%D0%B9.jpg"
+  },
+  {
+    "id": 233,
+    "fullname": "Sulaymon Xo‘jayev",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%A1%D1%83%D0%BB%D0%B0%D0%B9%D0%BC%D0%BE%D0%BD_%D0%A5%D1%9E%D0%B6%D0%B0%D0%B5%D0%B2.jpg"
+  },
+  {
+    "id": 305,
+    "fullname": "Abdulla Abdurahmon o‘g‘li Gulshaniy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA2.png"
+  },
+  {
+    "id": 234,
+    "fullname": "Akrom Usmonov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%90%D0%BA%D1%80%D0%BE%D0%BC_%D0%A3%D1%81%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2.jpg"
+  },
+  {
+    "id": 101,
+    "fullname": "Abdurashid Mukamilov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_SxU04YL.jpeg"
+  },
+  {
+    "id": 232,
+    "fullname": "Abdurahmon Gʻoyibiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%90%D0%B1%D0%B4%D1%83%D1%80%D0%B0%D2%B3%D0%BC%D0%BE%D0%BD_%D2%92%D0%BE%D0%B9%D0%B8%D0%B1%D0%B8%D0%B9_P0Yhxna.jpg"
+  },
+  {
+    "id": 206,
+    "fullname": "Sanjar Siddiq",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%A1%D0%B0%D0%BD%D0%B6%D0%B0%D1%80_%D0%A1%D0%B8%D0%B4%D0%B4%D0%B8%D2%9B.jpg"
+  },
+  {
+    "id": 311,
+    "fullname": "Sadriddin Maqsudiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.jpg"
+  },
+  {
+    "id": 310,
+    "fullname": "Akobir Shomansur o‘g‘li",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/LOGO_0AcTiU5.jpeg"
+  },
+  {
+    "id": 278,
+    "fullname": "Karim Abdullayev",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%9A%D0%B0%D1%80%D0%B8%D0%BC_YF2yA2u.jpg"
+  },
+  {
+    "id": 277,
+    "fullname": "Nazir Sholikorov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%9D%D0%B0%D0%B7%D0%B8%D1%80.jpg"
+  },
+  {
+    "id": 2,
+    "fullname": "Salimxon Tillaxonov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%A1%D0%B0%D0%BB%D0%B8%D0%BC%D1%85%D0%BE%D0%BD_.jpg"
+  },
+  {
+    "id": 223,
+    "fullname": "Naimjon Yoqubzoda",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%9D%D0%B0%D0%B8%D0%BC%D0%B6%D0%BE%D0%BD_%D0%81%D2%9B%D1%83%D0%B1%D0%B7%D0%BE%D0%B4%D0%B0.jpg"
+  },
+  {
+    "id": 91,
+    "fullname": "Qo‘chqor Olimov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_jDe3AKC.jpeg"
+  },
+  {
+    "id": 24,
+    "fullname": "G‘ozi Olim Yunus",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Gozi_Olim_Yunus.jpg"
+  },
+  {
+    "id": 16,
+    "fullname": "Xolid Said",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Xolid_Said_7gWnn2R.jpg"
+  },
+  {
+    "id": 169,
+    "fullname": "Hayratiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_qF1YvMn.jpeg"
+  },
+  {
+    "id": 40,
+    "fullname": "Saidrizo Alizoda",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Saidrizo_Alizoda.jpg"
+  },
+  {
+    "id": 13,
+    "fullname": "Bahrom Haydariy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Bahrom_Haydariy_opr99eb.jpg"
+  },
+  {
+    "id": 215,
+    "fullname": "Usmonxon Eshonxo‘ja o‘g‘li",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%A3%D1%81%D0%BC%D0%BE%D0%BD%D1%85%D0%BE%D0%BD_%D0%AD%D1%88%D0%BE%D0%BD%D1%85%D1%9E%D0%B6%D0%B0_%D1%9E%D2%93%D0%BB%D0%B8.jpg"
+  },
+  {
+    "id": 197,
+    "fullname": "Anqaboy Xudoybaxtov",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%90%D0%BD%D2%9B%D0%B0%D0%B1%D0%BE%D0%B9_RfZrOpv.jpg"
+  },
+  {
+    "id": 127,
+    "fullname": "Haziniy Ho‘qandiy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_rq0vGVi.jpeg"
+  },
+  {
+    "id": 142,
+    "fullname": "Nozimahonim",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_XDkRKvs.jpeg"
+  },
+  {
+    "id": 100,
+    "fullname": "Mulla Abdullohbek Musabekhoji oʻgʻli",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_AnfLrB5.jpeg"
+  },
+  {
+    "id": 63,
+    "fullname": "Shokir Sulaymon",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/Shokir_Sulaymon.jpg"
+  },
+  {
+    "id": 137,
+    "fullname": "G‘urbat",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_PuniedU.jpeg"
+  },
+  {
+    "id": 204,
+    "fullname": "Komil Devoniy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/%D0%9A%D0%BE%D0%BC%D0%B8%D0%BB_%D0%94%D0%B5%D0%B2%D0%BE%D0%BD%D0%B8%D0%B9.jpg"
+  },
+  {
+    "id": 118,
+    "fullname": "Toshxo‘ja Ashurxo‘jayev",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_kH6EW40.jpeg"
+  },
+  {
+    "id": 184,
+    "fullname": "Afandixon Axtariy",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_HYzPILT.jpeg"
+  },
+  {
+    "id": 177,
+    "fullname": "Ahmad Nayim",
+    "image": "https://backend.jadidlar.uz/media/image/jadid/logo_2_VUegFDF.jpeg"
+  }
+]

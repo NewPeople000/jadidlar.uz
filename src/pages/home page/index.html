@@ -1,0 +1,2186 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jadidlar – O'zbek jadidchilik harakati vakillari haqida ma'lumot"
+    />
+    <title>JADIDLAR | Jadidlar</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://cdn-icons-png.flaticon.com/512/1183/1183807.png"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Slab:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ============================================================
+         NAVBAR
+    ============================================================ -->
+    <nav id="nav_bar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <img src="/src/assets/images/jadidlar sozi.svg" alt="Jadidlar" />
+        </a>
+
+        <!-- Menu -->
+        <ul class="nav-menu">
+          <li><a href="#">JADIDLAR</a></li>
+
+          <li class="dropdown">
+            <a href="#">MANBALLAR <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Arxiv hujjatlari</a></li>
+              <li><a href="#">Matbuot</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">IZLANISHLAR <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Asarlar</a></li>
+              <li><a href="#">Maqolalar</a></li>
+              <li><a href="#">Dissertatsiyalar</a></li>
+              <li><a href="#">Esdaliklar</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">TIL VA IMLO <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Asarlar</a></li>
+              <li><a href="#">Maqolalar</a></li>
+              <li><a href="#">Hikmatlar</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">TURKISTON MUXTORIYATI <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Asarlar</a></li>
+              <li><a href="#">Maqolalar</a></li>
+              <li><a href="#">She'rlar</a></li>
+              <li><a href="#">Esdaliklar</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">VOQEALAR <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Yangiliklar</a></li>
+              <li><a href="#">Yig'inlar</a></li>
+              <li><a href="#">Seminarlar</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">KO'R-ESHIT-O'QI <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Suratlar</a></li>
+              <li><a href="#">Ko'ruvlar</a></li>
+              <li><a href="#">Eshituvlar</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">BIZ HAQIMIZDA</a></li>
+        </ul>
+
+        <!-- Right actions -->
+        <div class="nav-actions">
+          <button class="search-btn" type="button" aria-label="Qidirish">
+            ⌕
+          </button>
+
+          <div class="language">
+            <a href="#">O'z <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">O'zbek</a></li>
+              <li><a href="#">Русский</a></li>
+              <li><a href="#">English</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ============================================================
+         HERO CAROUSEL – birinchi jadidlar slayderi
+    ============================================================ -->
+    <section id="jadidlar_carousel">
+      <div class="hero-slider" id="heroSlider">
+        <!-- Matn + tugma -->
+        <div class="hero-content" id="heroContent">
+          <h1 id="heroTitle">Mahmudxo'ja Behbudiy</h1>
+          <p id="heroDescription">
+            Tarix eng mashhur va mo'tabar hodisalardan boshlanur.
+          </p>
+          <a href="#" id="heroLink" class="hero-button">To'liq</a>
+        </div>
+
+        <!-- Rasm -->
+        <div class="hero-image" id="heroImage">
+          <img
+            id="heroPerson"
+            src="https://backend.jadidlar.uz/media/slayder/ChatGPT_Image_26_%D0%B4%D0%B5%D0%BA._2025_%D0%B3._12_38_01_WLkBiX9.png"
+            alt="Mahmudxo'ja Behbudiy"
+          />
+        </div>
+
+        <!-- Strelkalar -->
+        <button
+          class="hero-arrow hero-prev"
+          id="heroPrev"
+          type="button"
+          aria-label="Oldingi"
+        >
+          &#10094;
+        </button>
+        <button
+          class="hero-arrow hero-next"
+          id="heroNext"
+          type="button"
+          aria-label="Keyingi"
+        >
+          &#10095;
+        </button>
+
+        <!-- Pagination -->
+        <div class="hero-pagination" id="heroPagination"></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         YANGILIKLAR CAROUSEL
+    ============================================================ -->
+    <section id="yangiliklar">
+      <div class="news-container">
+        <!-- Slider -->
+        <div class="news-slider">
+          <button
+            class="news-arrow news-prev"
+            id="newsPrev"
+            type="button"
+            aria-label="Oldingi yangiliklar"
+          >
+            &#10094;
+          </button>
+
+          <div class="news-window" id="newsWindow">
+            <div class="news-track" id="newsTrack">
+              <!-- 1-KARTA -->
+              <article class="news-card">
+                <div class="news-top">
+                  <h3 class="news-title">Cho'lpon domladan tirik yodgorlar</h3>
+                  <div class="news-info">
+                    <div class="news-meta">
+                      <span>Yangiliklar</span>
+                      <time datetime="2026-10-28">28.10.2026</time>
+                    </div>
+                    <a
+                      href="https://www.facebook.com/iskandar.abdulbosit.madgaziyev"
+                      target="_blank"
+                      class="news-button"
+                      >To'liq</a
+                    >
+                  </div>
+                </div>
+                <div class="news-image">
+                  <img
+                    src="https://backend.jadidlar.uz/media/image/476833609_1872218926855831_207808196596176029_n.jpg"
+                    alt="Cho'lpon domladan tirik yodgorlar"
+                    loading="lazy"
+                  />
+                </div>
+              </article>
+
+              <!-- 2-KARTA -->
+              <article class="news-card">
+                <div class="news-top">
+                  <h3 class="news-title">
+                    Prezident tashabbusi: jadidlar avlodlari birlashdi
+                  </h3>
+                  <div class="news-info">
+                    <div class="news-meta">
+                      <span>Yangiliklar</span>
+                      <time datetime="2026-10-26">26.10.2026</time>
+                    </div>
+                    <a
+                      href="https://uza.uz/ru/posts/prezident-tashabbusi-zhadidlar-avlodlari-birlashdi-video_926074"
+                      target="_blank"
+                      class="news-button"
+                      >To'liq</a
+                    >
+                  </div>
+                </div>
+                <div class="news-image">
+                  <img
+                    src="https://backend.jadidlar.uz/media/image/LH10jNkwZzir6dgXDJ4mYPyyjuUbBCCh_front.jpg"
+                    alt="Prezident tashabbusi"
+                    loading="lazy"
+                  />
+                </div>
+              </article>
+
+              <!-- 3-KARTA -->
+              <article class="news-card">
+                <div class="news-top">
+                  <h3 class="news-title">
+                    «Jadidlar avlodlari uchrashuvi» umummilliy ilmiy-ma'rifiy
+                    yig'ini
+                  </h3>
+                  <div class="news-info">
+                    <div class="news-meta">
+                      <span>Yangiliklar</span>
+                      <time datetime="2026-10-26">26.10.2026</time>
+                    </div>
+                    <a
+                      href="https://t.me/tarixchivijdoni/4193"
+                      target="_blank"
+                      class="news-button"
+                      >To'liq</a
+                    >
+                  </div>
+                </div>
+                <div class="news-image">
+                  <img
+                    src="https://backend.jadidlar.uz/media/image/photo_2026-10-19_11-19-08.jpg"
+                    alt="Jadidlar avlodlari uchrashuvi"
+                    loading="lazy"
+                  />
+                </div>
+              </article>
+
+              <!-- 4-KARTA -->
+              <article class="news-card">
+                <div class="news-top">
+                  <h3 class="news-title">Cho'lpon. Vijdon erki</h3>
+                  <div class="news-info">
+                    <div class="news-meta">
+                      <span>Yangiliklar</span>
+                      <time datetime="2026-09-17">17.09.2026</time>
+                    </div>
+                    <a
+                      href="https://www.youtube.com/watch?v=WR0fjjlkdZc"
+                      target="_blank"
+                      class="news-button"
+                      >To'liq</a
+                    >
+                  </div>
+                </div>
+                <div class="news-image">
+                  <img
+                    src="https://backend.jadidlar.uz/media/image/vijdon.jpg"
+                    alt="Cho'lpon. Vijdon erki"
+                    loading="lazy"
+                  />
+                </div>
+              </article>
+
+              <!-- 5-KARTA -->
+              <article class="news-card">
+                <div class="news-top">
+                  <h3 class="news-title">Cho'lpon. Aldanish</h3>
+                  <div class="news-info">
+                    <div class="news-meta">
+                      <span>Yangiliklar</span>
+                      <time datetime="2026-09-17">17.09.2026</time>
+                    </div>
+                    <a
+                      href="https://www.youtube.com/watch?v=yxpx5ssNnzM"
+                      target="_blank"
+                      class="news-button"
+                      >To'liq</a
+                    >
+                  </div>
+                </div>
+                <div class="news-image">
+                  <img
+                    src="https://backend.jadidlar.uz/media/image/aldanish.jpg"
+                    alt="Cho'lpon. Aldanish"
+                    loading="lazy"
+                  />
+                </div>
+              </article>
+
+              <!-- 6-KARTA -->
+              <article class="news-card">
+                <div class="news-top">
+                  <h3 class="news-title">Cho'lpon. Ey, Go'zal Farg'ona</h3>
+                  <div class="news-info">
+                    <div class="news-meta">
+                      <span>Yangiliklar</span>
+                      <time datetime="2026-09-17">17.09.2026</time>
+                    </div>
+                    <a
+                      href="https://www.youtube.com/watch?v=EEIu7z_D580"
+                      target="_blank"
+                      class="news-button"
+                      >To'liq</a
+                    >
+                  </div>
+                </div>
+                <div class="news-image">
+                  <img
+                    src="https://backend.jadidlar.uz/media/image/fargona.jpg"
+                    alt="Cho'lpon. Ey, Go'zal Farg'ona"
+                    loading="lazy"
+                  />
+                </div>
+              </article>
+
+              <!-- 7-KARTA -->
+              <article class="news-card">
+                <div class="news-top">
+                  <h3 class="news-title">Cho'lpon dastxati</h3>
+                  <div class="news-info">
+                    <div class="news-meta">
+                      <span>Yangiliklar</span>
+                      <time datetime="2026-09-14">14.09.2026</time>
+                    </div>
+                    <a href="#" class="news-button">To'liq</a>
+                  </div>
+                </div>
+                <div class="news-image">
+                  <img
+                    src="https://backend.jadidlar.uz/media/image/photo_2026-09-11_23-23-39.jpg"
+                    alt="Cho'lpon dastxati"
+                    loading="lazy"
+                  />
+                </div>
+              </article>
+
+              <!-- 8-KARTA -->
+              <article class="news-card">
+                <div class="news-top">
+                  <h3 class="news-title">
+                    Abdulla Qodiriyning Berlindagi sirdoshi
+                  </h3>
+                  <div class="news-info">
+                    <div class="news-meta">
+                      <span>Yangiliklar</span>
+                      <time datetime="2026-09-06">06.09.2026</time>
+                    </div>
+                    <a
+                      href="https://uza.uz/uz/posts/abdulla-qodiriyning-berlindagi-sirdoshi_903809"
+                      target="_blank"
+                      class="news-button"
+                      >To'liq</a
+                    >
+                  </div>
+                </div>
+                <div class="news-image">
+                  <img
+                    src="https://backend.jadidlar.uz/media/image/HGrwd8POXkTbgtSDzp5BEiloUx0Yd8Hb_front.jpg"
+                    alt="Abdulla Qodiriyning Berlindagi sirdoshi"
+                    loading="lazy"
+                  />
+                </div>
+              </article>
+            </div>
+            <!-- /news-track -->
+          </div>
+          <!-- /news-window -->
+
+          <button
+            class="news-arrow news-next"
+            id="newsNext"
+            type="button"
+            aria-label="Keyingi yangiliklar"
+          >
+            &#10095;
+          </button>
+        </div>
+        <!-- /news-slider -->
+
+        <!-- Dots -->
+        <div class="news-pagination" id="newsPagination"></div>
+      </div>
+      <!-- /news-container -->
+    </section>
+    <!-- ============================================================
+         JADIDLAR CAROUSEL – slayder ostidagi kartalar
+    ============================================================ -->
+    <section id="jadidlar_info">
+      <div class="jadidlar-container">
+        <!-- Sarlavha + "Hammasini ko'rish" -->
+        <div class="jadidlar-header">
+          <h2>Jadidlar</h2>
+        </div>
+
+        <!-- Slider -->
+        <div class="jadidlar-slider">
+          <button
+            class="jadidlar-arrow jadidlar-prev"
+            id="jadidlarPrev"
+            type="button"
+            aria-label="Oldingi jadidlar"
+          >
+            &#10094;
+          </button>
+
+          <div class="jadidlar-window" id="jadidlarWindow">
+            <div class="jadidlar-track" id="jadidlarTrack">
+              <!-- Kartalar scripts.js orqali jadidlarCreateCards() bilan to'ldiriladi -->
+            </div>
+          </div>
+
+          <button
+            class="jadidlar-arrow jadidlar-next"
+            id="jadidlarNext"
+            type="button"
+            aria-label="Keyingi jadidlar"
+          >
+            &#10095;
+          </button>
+        </div>
+
+        <!-- Dots -->
+        <div class="jadidlar-pagination" id="jadidlarPagination"></div>
+      </div>
+    </section>
+
+    <section class="sources-section">
+      <div class="container">
+        <h2 class="section-title">Manbalar</h2>
+
+        <!-- Tab menyular -->
+        <div class="tabs-header">
+          <button class="tab-btn active" data-tab="archive">
+            Arxiv hujjatlari
+          </button>
+          <button class="tab-btn" data-tab="press">Matbuot</button>
+        </div>
+
+        <div class="tab-divider"></div>
+
+        <!-- SVG Icon Trafaretlari (Qayta ishlatish uchun) -->
+        <svg style="display: none">
+          <symbol id="icon-download" viewBox="0 0 24 24">
+            <path
+              d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <polyline
+              points="7 10 12 15 17 10"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <line
+              x1="12"
+              y1="15"
+              x2="12"
+              y2="3"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol id="icon-share" viewBox="0 0 24 24">
+            <circle
+              cx="18"
+              cy="5"
+              r="3"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <circle
+              cx="6"
+              cy="12"
+              r="3"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <circle
+              cx="18"
+              cy="19"
+              r="3"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <line
+              x1="8.59"
+              y1="13.51"
+              x2="15.42"
+              y2="17.49"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <line
+              x1="15.41"
+              y1="6.51"
+              x2="8.59"
+              y2="10.49"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+          </symbol>
+        </svg>
+
+        <!-- Arxiv hujjatlari bo'limi -->
+        <div class="tab-content active" id="archive">
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/9vTCTUzQ1oQUgLRwdYEbbUMQbllGqHlSZ1PNdKQu.jpg"
+                  alt="Arxiv"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >ЦА ФСБ РФ. Ф-2, о-9, д-513</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">ЦА ФСБ РФ.<br />Ф-2, о-9, д-513</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/%D0%8E%D0%B7%D0%A4%D0%90_%D0%9C%D0%94%D0%90._52-%D1%84%D0%BE%D0%BD%D0%B4_1-%D1%80%D1%9E%D0%B9%D1%85%D0%B0%D1%82_2-%D0%B9%D0%B8%D2%93%D0%BC%D0%B0%D0%B6%D0%B8%D0%BB%D0%B4_70-%D0%B2%D0%B0%D1%80%D0%B0%D2%9B.jpg"
+                  alt="Arxiv"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >O‘zFA me’mori. 52-jamg‘arma, 1-ro‘yxat,...</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    O‘zFA me’mori.<br />52-jamg‘arma, 1-ro‘yxat,...
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/vqyCTd952K1mOvR0qXSrS0eVxYyaLgEMKlfI7s6X.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title">Botu arxiv hujjatlari</span>
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">Botu arxiv<br />hujjatlari</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/15%D0%A1%D0%B0%D0%B8%D0%B4%D1%80%D0%B8%D0%B7%D0%BE_%D0%90%D0%BB%D0%B8%D0%B7%D0%BE%D0%B4%D0%B0%D0%BD%D0%B8%D0%BD%D0%B3_%D0%8E%D0%B7%D0%A1%D0%A1%D0%A0_%D0%9D%D0%9A%D0%92%D0%94%D0%B4%D0%B0%D0%B3%D0%B8_%D1%88%D0%B0%D1%85%D1%81%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%B4%D0%B0%D0%BD.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Saidrizo Alizodaning O‘zSSR NKVDdagi shaxsiy...</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Saidrizo Alizodaning<br />O‘zSSR NKVDdagi shaxsiy...
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/HdH1cEBQhCH8iukwU5xpbEA3cZrftciU0p5oASUf.jpg"
+                  alt="Arxiv"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title">Трудовой список Фитрат</span>
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">Трудовой список<br />Фитрат</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Matbuot bo'limi -->
+        <div class="tab-content" id="press">
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/7LTonfY0ehvRCVMdLQh24Efu7lR6b7z1yb1udrtU.jpg"
+                  alt="Matbuot"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Ashurali Zohiriy. Jon, ovqat ham kiyim, dala va sahroda</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Ashurali Zohiriy.<br />Jon, ovqat ham kiyim...
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/KV22FAGOFGFdCe4KZoUMii16a37peYInZb3KXJq6.jpg"
+                  alt="Matbuot"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Hoji Muin. Ozuqa to‘g‘risida musovotsizlik</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Hoji Muin.<br />Ozuqa to‘g‘risida...
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/oqGhGqt6Hwx1O2HbTXhSy3tPwswXad0AfpzPb4up.jpg"
+                  alt="Matbuot"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Abduvahob Murodiy. Butun dunyo paxtachiligi</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Abduvahob Murodiy.<br />Butun dunyo paxtachiligi
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/FJKkZtU14UYsUdVjeIx33xv50VYupUdA0LVyOVNl.jpg"
+                  alt="Matbuot"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >G‘ozi Yunus. G‘ayri rasmiy qism. Yana qimmatchilik...</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    G‘ozi Yunus.<br />G‘ayri rasmiy qism...
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/XXVqLllRQqd1DhzOf34XrA8iw2KcuxNCcWVqUIYp.png"
+                  alt="Matbuot"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Hamza Hakimzoda Niyoziy. Mahalliy sarmoyani kuchaytirish
+                  choralari</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Hamza Hakimzoda Niyoziy.<br />Mahalliy sarmoyani...
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SVG Iconlar -->
+    <svg style="display: none">
+      <symbol id="icon-download" viewBox="0 0 24 24">
+        <path
+          d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <polyline
+          points="7 10 12 15 17 10"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <line
+          x1="12"
+          y1="15"
+          x2="12"
+          y2="3"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="icon-share" viewBox="0 0 24 24">
+        <circle
+          cx="18"
+          cy="5"
+          r="3"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <circle
+          cx="6"
+          cy="12"
+          r="3"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <circle
+          cx="18"
+          cy="19"
+          r="3"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <line
+          x1="8.59"
+          y1="13.51"
+          x2="15.42"
+          y2="17.49"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <line
+          x1="15.41"
+          y1="6.51"
+          x2="8.59"
+          y2="10.49"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+      </symbol>
+    </svg>
+
+    <section class="research-section">
+      <div class="container2">
+        <h2 class="section-title">Izlanishlar</h2>
+
+        <!-- Tab menyular -->
+        <div class="tabs-header">
+          <button class="tab-btn active" data-tab="works">Asarlar</button>
+          <button class="tab-btn" data-tab="articles">Maqolalar</button>
+          <button class="tab-btn" data-tab="dissertations">
+            Dissertatsiyalar
+          </button>
+          <button class="tab-btn" data-tab="memoirs">Esdaliklar</button>
+        </div>
+
+        <div class="tab-divider"></div>
+
+        <!-- 1. Asarlar bo'limi -->
+        <div class="tab-content active" id="works">
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Untitled_cTvzlSG.jpg"
+                  alt="Asar"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Ислом Усмонов. Қатағон қурбонлари</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Ислом Усмонов.<br />Қатағон қурбонлари
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Untitled_7aIPdKI.jpg"
+                  alt="Asar"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Наим Каримов. Истиқлолни уйғотган...</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Наим Каримов.<br />Истиқлолни уйғотган...
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D2%B3%D0%B0%D0%BC%D0%B8%D0%B4_%D0%A7%D1%9E%D0%BB%D0%BF%D0%BE%D0%BD.jpg"
+                  alt="Asar"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title">Abdulhamid Cho'lpon</span>
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">Abdulhamid Cho'lpon</h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/%D0%A0._%D2%B2%D0%BE%D1%88%D0%B8%D0%BC._%D0%A1%D1%83%D1%85%D0%B0%D0%BD_%D0%B0%D0%B7_%D1%83%D1%81%D1%82%D0%BE%D0%B4%D0%BE%D0%BD_%D0%B2%D0%B0_%D0%B4%D3%AF%D1%81%D1%82%D0%BE%D0%BD.jpg"
+                  alt="Asar"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Раҳим Ҳошим. Сухан аз устодон ва дӯстон</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Раҳим Ҳошим.<br />Сухан аз устодон ва дӯстон
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/1-logo_122_tI3VMDz.jpg"
+                  alt="Asar"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Mahmudxo'ja Behbudiy diniy-ma'rifiy...</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn" title="Yuklab olish">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn" title="Ulashish">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Mahmudxo'ja Behbudiy<br />diniy-ma'rifiy qarashlari...
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Maqolalar bo'limi -->
+        <div class="tab-content" id="articles">
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/%D0%A8%D0%B5%D1%80%D0%B0%D0%BB%D0%B8_%D0%A2%D1%83%D1%80%D0%B4%D0%B8%D0%B5%D0%B2._%D0%A8%D0%BE%D0%B8%D1%80_%D0%AD%D0%BB%D0%B1%D0%B5%D0%BA_1990.jpg"
+                  alt="Maqola"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Sherali Turdiyev. Shoir Elbek</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Sherali Turdiyev.<br />Shoir Elbek
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Untitled_pixXGx6.jpg"
+                  alt="Maqola"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >"Jadid" gazetasining 35-soni</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">"Jadid" gazetasining<br />35-soni</h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/2023.25may.jpg"
+                  alt="Maqola"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Karim Normatov. Ta'lim va fan-ma'rifiy...</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Karim Normatov.<br />Ta'lim va fan-ma'rifiy...
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Logo_UlOCInF.webp"
+                  alt="Maqola"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Azamat Ziyo. Milliy matbuot...</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Azamat Ziyo.<br />Milliy matbuot...
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/2024.7iyn.jpg"
+                  alt="Maqola"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >O'rolboy Qobil. Qamashilik jadid bobo</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    O'rolboy Qobil.<br />Qamashilik jadid bobo
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Dissertatsiyalar bo'limi -->
+        <div class="tab-content" id="dissertations">
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/%D0%A8%D0%BE%D0%B4%D0%B8%D0%B5%D0%B2_%D0%9C%D0%B8%D1%80%D0%B7%D0%BE%D1%88%D0%B0%D1%80%D0%B8%D1%84_%D0%A1%D0%B0%D1%84%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87..jpg"
+                  alt="Dissertatsiya"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Shodiyev Mirzosharif Safarovich.</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Shodiyev Mirzosharif<br />Safarovich.
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/%D0%A1.%D0%90._%D0%90%D0%B1%D0%B4%D0%B8%D0%B2%D0%BE%D2%B3%D0%B8%D0%B4%D0%BE%D0%B2._%D0%96%D0%B0%D0%B4%D0%B8%D0%B4%D1%87%D0%B8%D0%BB%D0%B8%D0%BA_%D2%B3%D0%B0%D1%80%D0%B0%D0%BA%D0%B0%D1%82%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3.jpg"
+                  alt="Dissertatsiya"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >S.A. Abdivohidov. Jadidchilik harakatining</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    S.A. Abdivohidov.<br />Jadidchilik harakatining
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/%D0%9C.%D2%92._%D0%96%D0%B0%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2._%D0%AE%D2%9B%D0%BE%D1%80%D0%B8_%D1%81%D0%B8%D0%BD%D1%84.jpg"
+                  alt="Dissertatsiya"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >M.G'. Jamolitdinov. Yuqori sinf</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    M.G'. Jamolitdinov.<br />Yuqori sinf
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Untitled_66fJVFZ.jpg"
+                  alt="Dissertatsiya"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Murodov Adham. Jadidlar ilmiy merosi...</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Murodov Adham.<br />Jadidlar ilmiy merosi...
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/%D0%94.%D0%95._%D0%96%D0%B0%D0%B1%D0%B1%D0%BE%D1%80%D0%BE%D0%B2%D0%B0._%D0%98%D1%81%D1%82%D0%B8%D2%9B%D0%BB%D0%BE%D0%BB_%D0%B4%D0%B0%D0%B2%D1%80%D0%B8_%D1%9E%D0%B7%D0%B1%D0%B5%D0%BA.jpg"
+                  alt="Dissertatsiya"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >D.E. Jabborova. Istiqlol davri o'zbek</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    D.E. Jabborova.<br />Istiqlol davri o'zbek
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Esdaliklar bo'limi -->
+        <div class="tab-content" id="memoirs">
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Untitled_W4uJxGI.jpg"
+                  alt="Esdalik"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Аҳмад Заки Валидий Тўғон...</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">Аҳмад Заки Валидий<br />Тўғон...</h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/%D1%81%D1%83.jpg"
+                  alt="Esdalik"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Xolida Ahrorova. Sumbul isi</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">Xolida Ahrorova.<br />Sumbul isi</h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Iz.jpg"
+                  alt="Esdalik"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Xolida Ahrorova. Izlarini izlayman</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Xolida Ahrorova.<br />Izlarini izlayman
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/%D1%9E%D1%82.jpg"
+                  alt="Esdalik"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Xolida Ahrorova. O'tgani yurakdan o'tdi</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Xolida Ahrorova.<br />O'tgani yurakdan o'tdi
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/1-logo_122_sgBkifb.jpg"
+                  alt="Esdalik"
+                />
+              </div>
+              <div class="card-default-overlay">
+                <span class="card-default-title"
+                  >Habibulla Qodiriy. Otam haqida</span
+                >
+              </div>
+              <div class="card-hover-overlay">
+                <div class="hover-actions">
+                  <button class="action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="hover-content">
+                  <h3 class="hover-title">
+                    Habibulla Qodiriy.<br />Otam haqida
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lingua-section">
+      <div class="lingua-container">
+        <h2 class="lingua-title">Til va imlo</h2>
+
+        <!-- Tab menyular -->
+        <div class="lingua-tabs-header">
+          <button class="lingua-tab-btn active" data-lingua-tab="lingua-works">
+            Asarlar
+          </button>
+          <button class="lingua-tab-btn" data-lingua-tab="lingua-articles">
+            Maqolalar
+          </button>
+          <button class="lingua-tab-btn" data-lingua-tab="lingua-quotes">
+            Hikmatlar
+          </button>
+        </div>
+
+        <div class="lingua-divider"></div>
+
+        <!-- SVG Iconlar -->
+        <svg style="display: none">
+          <symbol id="icon-download" viewBox="0 0 24 24">
+            <path
+              d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <polyline
+              points="7 10 12 15 17 10"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <line
+              x1="12"
+              y1="15"
+              x2="12"
+              y2="3"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol id="icon-share" viewBox="0 0 24 24">
+            <circle
+              cx="18"
+              cy="5"
+              r="3"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <circle
+              cx="6"
+              cy="12"
+              r="3"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <circle
+              cx="18"
+              cy="19"
+              r="3"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <line
+              x1="8.59"
+              y1="13.51"
+              x2="15.42"
+              y2="17.49"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <line
+              x1="15.41"
+              y1="6.51"
+              x2="8.59"
+              y2="10.49"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+          </symbol>
+        </svg>
+
+        <!-- 1. Asarlar bo'limi -->
+        <div class="lingua-tab-content active" id="lingua-works">
+          <div class="lingua-grid">
+            <div class="lingua-card">
+              <div class="lingua-img-wrap">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Ozbek_lahjalari.jpg"
+                  alt="Asar"
+                />
+              </div>
+              <div class="lingua-default-box">
+                <span class="lingua-box-title"
+                  >G‘ozi Olim Yunus. O'zbek lahjalari tasnifida bir
+                  tajriba</span
+                >
+              </div>
+              <div class="lingua-hover-box">
+                <div class="lingua-actions">
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="lingua-hover-text">
+                  <h3 class="lingua-h-title">
+                    G‘ozi Olim Yunus. O'zbek lahjalari tasnifida bir tajriba
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="lingua-card">
+              <div class="lingua-img-wrap">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Screenshot_from_2024-02-28_11-02-14.png"
+                  alt="Asar"
+                />
+              </div>
+              <div class="lingua-default-box">
+                <span class="lingua-box-title"
+                  >Qayum Ramazon. O'zbek tilining imlo qoidalari</span
+                >
+              </div>
+              <div class="lingua-hover-box">
+                <div class="lingua-actions">
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="lingua-hover-text">
+                  <h3 class="lingua-h-title">
+                    Qayum Ramazon. O'zbek tilining imlo qoidalari
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="lingua-card">
+              <div class="lingua-img-wrap">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Rus-ozbek_tilining_lugatchasi.jpg"
+                  alt="Asar"
+                />
+              </div>
+              <div class="lingua-default-box">
+                <span class="lingua-box-title"
+                  >Rus-o‘zbek tilining siyosiy va iqtisodiy lug‘atchasi</span
+                >
+              </div>
+              <div class="lingua-hover-box">
+                <div class="lingua-actions">
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="lingua-hover-text">
+                  <h3 class="lingua-h-title">
+                    Rus-o‘zbek tilining siyosiy va iqtisodiy lug‘atchasi
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="lingua-card">
+              <div class="lingua-img-wrap">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/OCherk.jpg"
+                  alt="Asar"
+                />
+              </div>
+              <div class="lingua-default-box">
+                <span class="lingua-box-title"
+                  >Очерк по истории развития движения ново...</span
+                >
+              </div>
+              <div class="lingua-hover-box">
+                <div class="lingua-actions">
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="lingua-hover-text">
+                  <h3 class="lingua-h-title">
+                    Очерк по истории развития движения нового алфавита и его
+                    достижения
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="lingua-card">
+              <div class="lingua-img-wrap">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/Sharq_madaniyati_va_yozuvi.jpg"
+                  alt="Asar"
+                />
+              </div>
+              <div class="lingua-default-box">
+                <span class="lingua-box-title">Sharq madaniyati va yozuvi</span>
+              </div>
+              <div class="lingua-hover-box">
+                <div class="lingua-actions">
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="lingua-hover-text">
+                  <h3 class="lingua-h-title">Sharq madaniyati va yozuvi</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Maqolalar bo'limi -->
+        <div class="lingua-tab-content" id="lingua-articles">
+          <div class="lingua-grid">
+            <div class="lingua-card">
+              <div class="lingua-img-wrap">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/JnTO2HdfPatd3Dqm4G3VEGvcLDwJUlPRV61cbgUL.jpg"
+                  alt="Maqola"
+                />
+              </div>
+              <div class="lingua-default-box">
+                <span class="lingua-box-title"
+                  >Sadriddin Ayniy. Muharrirlar diqqatina</span
+                >
+              </div>
+              <div class="lingua-hover-box">
+                <div class="lingua-actions">
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="lingua-hover-text">
+                  <h3 class="lingua-h-title">
+                    Sadriddin Ayniy. Muharrirlar diqqatina
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="lingua-card">
+              <div class="lingua-img-wrap">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/uxWEVXLTHOUIOwLkC5mcKSLdeFZ6Da2vOERS7ZhG.jpg"
+                  alt="Maqola"
+                />
+              </div>
+              <div class="lingua-default-box">
+                <span class="lingua-box-title"
+                  >G‘ozi Olim Yunus. O‘zbek tilining tovushlari</span
+                >
+              </div>
+              <div class="lingua-hover-box">
+                <div class="lingua-actions">
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="lingua-hover-text">
+                  <h3 class="lingua-h-title">
+                    G‘ozi Olim Yunus. O‘zbek tilining tovushlari
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="lingua-card">
+              <div class="lingua-img-wrap">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/fW69jwVOSM4Ef4SeMbbFv3xMzBm1LB3ov96LqgrW.jpg"
+                  alt="Maqola"
+                />
+              </div>
+              <div class="lingua-default-box">
+                <span class="lingua-box-title"
+                  >Shokirjon Rahimiy. Tilimizni bir qoida ostig‘a olayliq</span
+                >
+              </div>
+              <div class="lingua-hover-box">
+                <div class="lingua-actions">
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="lingua-hover-text">
+                  <h3 class="lingua-h-title">
+                    Shokirjon Rahimiy. Tilimizni bir qoida ostig‘a olayliq
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="lingua-card">
+              <div class="lingua-img-wrap">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/dZF8KyQQBP5SbmtTeV6vhK2Nu7MMrC94UfvGH5C2.jpg"
+                  alt="Maqola"
+                />
+              </div>
+              <div class="lingua-default-box">
+                <span class="lingua-box-title">Elbek. Lug’at va atamalar</span>
+              </div>
+              <div class="lingua-hover-box">
+                <div class="lingua-actions">
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="lingua-hover-text">
+                  <h3 class="lingua-h-title">Elbek. Lug’at va atamalar</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="lingua-card">
+              <div class="lingua-img-wrap">
+                <img
+                  src="https://backend.jadidlar.uz/media/images/lR6HtVicSCQMtMQoDf6ES7IqBj7prw84ahErP8bO.jpg"
+                  alt="Maqola"
+                />
+              </div>
+              <div class="lingua-default-box">
+                <span class="lingua-box-title"
+                  >Turkiston xabarlari. Pochtada o'zbak tili</span
+                >
+              </div>
+              <div class="lingua-hover-box">
+                <div class="lingua-actions">
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-download" /></svg>
+                  </button>
+                  <button class="lingua-action-btn">
+                    <svg><use href="#icon-share" /></svg>
+                  </button>
+                </div>
+                <div class="lingua-hover-text">
+                  <h3 class="lingua-h-title">
+                    Turkiston xabarlari. Pochtada o'zbak tili
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Hikmatlar bo'limi -->
+        <div class="lingua-tab-content" id="lingua-quotes">
+          <div class="lingua-quotes-list">
+            <div class="lingua-quote-card2">
+              <p class="lingua-quote-text">
+                Ma'lumingizdirki – 55 yildan beri bizlar mustabid zolim
+                hukumatning idorasinda ezilub, o‘zimizga eng kerakli bo‘lg‘on
+                diniy va milliy huquqlarimizdan mahrum etilib kelduk. Biz
+                o‘zimizg‘a kerakli huquqimizdan mahrum ekanlig‘imizni uzoq vaqt
+                bilmasdan turdik. Chunki, mustabid hukumat tarafindan turli
+                tadbirlar ishlatildi.
+              </p>
+              <div class="lingua-quote-author">
+                <span>Mirmulla Shermuhammedov</span>
+              </div>
+            </div>
+
+            <div class="lingua-quote-card">
+              <p class="lingua-quote-text">
+                Bizni solgan jaholat ko‘chasina ilmsizlikdur, San ey millat
+                uyg‘on! Bizdek bukulma ohi hasratdin.
+              </p>
+              <div class="lingua-quote-author">
+                <span>Mirmulla Shermuhammedov</span>
+              </div>
+            </div>
+
+            <div class="lingua-quote-card">
+              <p class="lingua-quote-text">
+                Kishining bor ersa oto va onosi, G‘animatdur anga alarning
+                rizosi.
+              </p>
+              <div class="lingua-quote-author">
+                <span>Munavvarqori Abdurashidxonov</span>
+              </div>
+            </div>
+
+            <div class="lingua-quote-card">
+              <p class="lingua-quote-text">
+                O‘z bolalarini islom taraqqiyotiga muvofiq tarbiyalab, din va
+                dindoshlarini halokat va xarobalik jarligidan qutqarishlari
+                uchun xotinlarimiz va qizlarimiz – millat onalari tarbiya va ilm
+                olishlari lozim, axloq va bilimlarini kamolga yetkazishlari
+                zarur.
+              </p>
+              <div class="lingua-quote-author">
+                <span>Abdurauf Fitrat</span>
+              </div>
+            </div>
+
+            <div class="lingua-quote-card">
+              <p class="lingua-quote-text">
+                Jaholat deb o‘qimagan, bilimsiz, hech narsaga tushunmaydurg‘on
+                nodonlig‘ni aytilur. Jaholat insoniyatning eng zo‘r dushmani va
+                yomon xulqlarning boshlig‘idur.
+              </p>
+              <div class="lingua-quote-author">
+                <span>Abdulla Avloniy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="jadid-history-wrap">
+      <div class="jadid-container">
+        <h2 class="jadid-main-title">Turkiston muxtoriyati</h2>
+
+        <!-- Tab menyu -->
+        <div class="jadid-tabs">
+          <button class="jadid-tab-btn active-tab" data-target="asarlar">
+            Asarlar
+          </button>
+          <button class="jadid-tab-btn" data-target="maqolalar">
+            Maqolalar
+          </button>
+          <button class="jadid-tab-btn" data-target="sherlar">She'rlar</button>
+          <button class="jadid-tab-btn" data-target="esdaliklar">
+            Esdaliklar
+          </button>
+        </div>
+
+        <!-- Kartochkalar chiqadigan joy -->
+        <div class="jadid-grid-box" id="jadidCardsBox"></div>
+
+        <!-- Ma'lumot yo'q holati (Boshlang'ich holatda yashirin) -->
+        <div class="jadid-empty-box" id="jadidEmptyBox" style="display: none">
+          <div class="jadid-empty-icon">
+            <svg
+              width="260"
+              height="260"
+              viewBox="0 0 96 96"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M48 12V22M32 16L36 25M64 16L60 25"
+                stroke="#CBD5E1"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path d="M48 32L76 44V74L48 86L20 74V44L48 32Z" fill="#6366F1" />
+              <path d="M48 32L76 44L48 56L20 44L48 32Z" fill="#4338CA" />
+              <path d="M48 56L76 44V74L48 86V56Z" fill="#818CF8" />
+              <path d="M20 44L48 56L40 66L12 54L20 44Z" fill="#A5B4FC" />
+              <path d="M76 44L48 56L56 66L84 54L76 44Z" fill="#C7D2FE" />
+            </svg>
+          </div>
+          <p class="jadid-empty-text">Ma'lumot yo'q</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="media-section">
+      <div class="media-container">
+        <h2 class="media-main-title">Ko'r-eshit-o'qi</h2>
+
+        <!-- Tab menyu -->
+        <div class="media-tabs">
+          <button class="media-tab-btn active-tab" data-target="koruvlar">
+            Ko'ruvlar
+          </button>
+          <button class="media-tab-btn" data-target="suratlar">Suratlar</button>
+          <button class="media-tab-btn" data-target="eshituvlar">
+            Eshituvlar
+          </button>
+        </div>
+
+        <!-- 1. KORUVLAR (Videolar uchun slider: har safar 2 tadan chiqadi) -->
+        <div class="media-tab-content active-content" id="koruvlar">
+          <div class="media-slider-wrapper">
+            <div class="media-slider-track" id="videoSliderTrack"></div>
+          </div>
+          <!-- Pagination nuqtalari -->
+          <div class="media-dots" id="videoDots"></div>
+        </div>
+
+        <!-- 2. SURATLAR (Slider va pagination bilan) -->
+        <div class="media-tab-content" id="suratlar" style="display: none">
+          <div class="media-slider-wrapper">
+            <div class="media-slider-track" id="suratlarSliderTrack"></div>
+          </div>
+          <!-- Suratlar uchun pagination nuqtalari -->
+          <div class="media-dots" id="suratlarDots"></div>
+        </div>
+
+        <!-- 3. ESHITUVLAR (Chapda pleer, o'ngda audial ro'yxat) -->
+        <div class="media-tab-content" id="eshituvlar" style="display: none">
+          <div class="media-audio-box">
+            <div class="media-audio-player-side">
+              <div class="media-audio-logo-wrap">
+                <h3 id="currentAudioTitle">Audioni tanlang</h3>
+              </div>
+              <div class="media-player-controls">
+                <button id="playPauseBtn">▶</button>
+                <span id="currentTime">0:00</span> /
+                <span id="totalTime">0:00</span>
+                <input type="range" id="audioSeek" value="0" max="100" />
+              </div>
+            </div>
+            <div class="media-audio-list-side" id="audioListContainer"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="useful-links-section">
+      <div class="container">
+        <h2 class="section-title">Foydali havolalar</h2>
+
+        <div class="marquee-container">
+          <div class="marquee-track" id="marqueeTrack">
+            <!-- Asl havolalaringiz -->
+            <a href="https://vuejs.org/" class="link-card"
+              ><img
+                src="https://backend.jadidlar.uz/media/logo_images/g2vKvUOfpfu97IeTygOvaAjfITWcCLpfmVHGyJXa.png"
+                alt="Havola 1"
+            /></a>
+            <a href="https://lex.uz/uz/" class="link-card"
+              ><img
+                src="https://backend.jadidlar.uz/media/logo_images/fiBjx6TD8rtzCwxTM709skXEfFZkHHQ9ueKgnVRO.png"
+                alt="Havola 2"
+            /></a>
+            <a href="https://about.gitlab.com/" class="link-card"
+              ><img
+                src="https://backend.jadidlar.uz/media/logo_images/x38HKWDiKiepvEt7yugHfOKU8MfPimKcAgLvWgPX.png"
+                alt="Havola 3"
+            /></a>
+            <a href="https://fati.uz/" class="link-card"
+              ><img
+                src="https://backend.jadidlar.uz/media/logo_images/ipp5qma0WikQNv9sArvEF6ntKGHNlGzfBbGjMNBB.png"
+                alt="Havola 4"
+            /></a>
+            <a href="https://t.me/jadidlarimiz_merosi" class="link-card"
+              ><img
+                src="https://backend.jadidlar.uz/media/logo_images/quiz2.jpg"
+                alt="Havola 5"
+            /></a>
+            <a href="https://president.uz/oz" class="link-card"
+              ><img
+                src="https://backend.jadidlar.uz/media/logo_images/5UjVFlzW7BHTQEYW4rpPgntE0gqNr6Bh3QjOtJNd.png"
+                alt="Havola 6"
+            /></a>
+            <a href="https://pm.gov.uz/oz" class="link-card"
+              ><img
+                src="https://backend.jadidlar.uz/media/logo_images/PmCFPri4Mq1iS98DxSPX4N0ibS0BtKs6HpqwDH0o.png"
+                alt="Havola 7"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <!-- Asosiy qism (Logo va ma'lumotlar) -->
+        <div class="footer-content">
+          <!-- 1. Logotip -->
+          <div class="footer-logo-box">
+            <a  class="footer-logo">
+              <img src="/src/assets//images/logoku-DwVVLZ7U.svg" alt="">
+            </a>
+          </div>
+
+          <!-- 2. Email -->
+          <div class="footer-info-col">
+            <h4 class="footer-col-title">Email</h4>
+            <a  class="footer-link">jadid@info.uz</a>
+          </div>
+
+          <!-- 3. Telefon -->
+          <div class="footer-info-col">
+            <h4 class="footer-col-title">Telefon</h4>
+            <a class="footer-link">+998712335470</a>
+          </div>
+
+          <!-- 4. Ijtimoiy tarmoq -->
+          <div class="footer-info-col">
+            <h4 class="footer-col-title">Ijtimoiy tarmoq</h4>
+            <div class="social-icons">
+              <a href="#" class="social-btn" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-btn" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-btn" aria-label="Telegram"
+                ><i class="fab fa-telegram-plane"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ajratuvchi chiziq va pastki qism -->
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            «Jadidlar» Barcha huquqlar himoyalangan
+          </p>
+          <p class="footer-year">&copy; Copyright 2026 -</p>
+
+          <!-- Tepaga chiqish tugmasi -->
+          <button
+            id="scrollTopBtn"
+            class="scroll-top-btn"
+            aria-label="Tepaga chiqish"
+          >
+            <i class="fas fa-chevron-up"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
