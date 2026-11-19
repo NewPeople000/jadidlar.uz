@@ -1,0 +1,420 @@
+body {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+  background-color: #ffffff;
+  background-image: url("/src/assets/images/bg-image.png");
+  background-repeat: repeat;
+}
+
+/* Asosiy bo'lim */
+.jadids-page-section {
+  color: #1a2b4c;
+  padding: 30px 20px 60px 20px;
+}
+
+.jadids-container {
+  max-width: 1750px;
+  margin: 0 auto;
+}
+
+/* Breadcrumb */
+.jadids-breadcrumb {
+  font-size: 13px;
+  font-weight: 600;
+  color: #718096;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+.jadids-breadcrumb a {
+  color: #1b355a;
+  text-decoration: none;
+}
+
+.jadids-breadcrumb b {
+  color: #a42a2a;
+}
+
+.jadids-breadcrumb span {
+  color: #718096;
+}
+
+/* Search Bar */
+.jadids-search-wrapper {
+  margin-bottom: 35px;
+}
+
+.jadids-search-box {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.jadids-search-input {
+  width: 100%;
+  height: 52px;
+  background-color: #e3edf8;
+  border-radius: 30px;
+  padding: 0 50px 0 25px;
+  font-size: 16px;
+  color: #6bb6ea;
+  outline: none;
+  background: linear-gradient(135deg, #dcecff, #b9d8ff);
+  border: none;
+  box-shadow: 0 6px 15px rgba(65, 140, 220, 0.25), 0 3px 8px rgba(0, 0, 0, 0.12),
+    inset 0 1px 3px rgba(255, 255, 255, 0.8);
+}
+
+.jadids-search-input:focus-within {
+  box-shadow: 0 0 0 2px rgba(80, 160, 255, 0.35),
+    0 5px 18px rgba(45, 135, 255, 0.45), 0 0 25px rgba(65, 150, 255, 0.3);
+
+  border-color: #8fc5ff;
+  background: #eaf4ff;
+}
+
+/* Input */
+.jadids-search-input input {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.jadids-search-btn {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1b355a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Kartochkalar Grid */
+.jadids-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    1fr
+  ); /* Rasmga moslab 6 ta ustun yoki 4-5 ta qilsa bo'ladi */
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Eslatma: Agar 6 ta emas, rasmda ko'ringandek 6 ta ustun sig'masa, repeat(3, 1fr) yoki repeat(4, 1fr) qilishingiz mumkin */
+@media (min-width: 1200px) {
+  .jadids-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Card Design */
+.jadid-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  transition: transform 0.3s ease;
+}
+
+.jadid-card:hover {
+  transform: translateY(-4px);
+}
+
+.jadid-img-wrap,
+.jadid-img-box {
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+}
+
+.jadid-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Pastki qora qism (Ism va yillar) */
+.jadid-info-box {
+  background-color: #1a1a1a;
+  flex-grow: 1;
+  padding: 12px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.jadid-name {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-bottom: 4px;
+}
+
+.jadid-years {
+  color: #a0aec0;
+  font-size: 12px;
+}
+
+.jadids-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.jadid-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #0f1c2e;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  aspect-ratio: 3 / 4;
+  cursor: pointer;
+}
+
+.jadid-card-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.jadid-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease; /* Rasm silliq kattalashishi uchun */
+}
+
+/* Pastki qora gradient qatlam (doimiy qora holat) */
+.jadid-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 115px;
+  padding: 25px 20px;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.3
+  ); /* Shaffof qora/to'q ko'k rang (0.6 - shaffoflik darajasi) */
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.jadid-card-content h3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+}
+
+.jadid-card-content p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jadid-dates {
+  color: #f0f0f0;
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* HOVER EFFEKTI: Faqat rasm kattalashadi, fon oqarmaydi */
+.jadid-card:hover .jadid-card-image img {
+  transform: scale(1.1); /* Rasmni biroz kattalashtirish */
+  transition: 1s ease;
+}
+
+/* Kitob cardlari grid stili */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* Book Card */
+.book-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.35s ease;
+  cursor: pointer;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Rasm to'liq egallaydi */
+.book-card-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.book-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+.book-card img:hover {
+  opacity: 0.9;
+  transform: rotate(-2deg) scale(1.1);
+  transition: all 0.35s ease;
+}
+
+/* Odatiy holatdagi pastki qora qism */
+.book-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  box-sizing: border-box;
+  z-index: 2;
+  /* Silliq transition: kubik bezier yordamida jonlantiramiz */
+  transition: height 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+    background-color 0.4s ease;
+}
+
+.book-card-content h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+  transition: all 0.3s ease;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* O‘ng yuqori burchakdagi icon tugmalar silliq chiqishi uchun */
+.book-card-actions {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 8px;
+  opacity: 0;
+  transform: translateY(-15px);
+  /* Tugmalar ham sekin va silliq paydo bo'ladi */
+  transition: opacity 0.35s ease 0.05s,
+    transform 0.35s cubic-bezier(0.25, 1, 0.5, 1) 0.05s;
+  z-index: 3;
+}
+
+.action-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #3b4d6c;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.2s;
+}
+
+.action-btn:hover {
+  background-color: #2b4c7e;
+}
+
+/* --- MOUSE OLGANDA (HOVER) --- */
+.book-card:hover .book-card-image img {
+  transform: scale(1.1) rotate(-2deg); /* Rasm ham juda sekin biroz kattalashadi (chiroyli effekt beradi) */
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.book-card:hover .book-card-content {
+  height: 55%; /* Tepagacha silliq ko'tariladi */
+  background: rgba(255, 255, 255, 0.7); /* Oq shaffof fon */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.book-card:hover .book-card-content h3 {
+  color: #0e2b65;
+  font-size: 20px;
+}
+
+/* Hikmatli so'zlar konteyneri */
+.quotes-container {
+  display: flex;
+  flex-direction: column;
+  gap: ; /* Pastdagi ism sig'ishi uchun qutilar orasini biroz ochamiz */
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Har bir iqtibos card stili */
+.quote-card {
+  background: transparent; /* Orqa naqsh ko'rinib turishi uchun shaffof fon */
+  border: 1.5px solid #D6DADF; /* Ramka chizig'i */
+  border-radius: 8px;
+  padding: 25px 30px 32px 30px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quote-text {
+  color:black;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Chiziqning ustida turadigan muallif yorlig'i */
+.quote-author {
+  position: absolute;
+  bottom: -16px; /* Pastki chiziqning o'rtasiga tushadi */
+  right: 55px; /* O'ng tomondan masofa */
+  background-color: #dfe3ee; /* Rasmdagidek och kulrang-ko'kish fon */
+  color: #0f172a; /* To'q qora-ko'k matn rangi */
+  font-size: 18px;
+  font-weight: 800;
+  padding: 6px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}

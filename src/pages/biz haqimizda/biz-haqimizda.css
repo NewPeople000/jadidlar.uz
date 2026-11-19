@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  color: #15264c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar,
+#footer {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+#footer {
+  margin-top: auto;
+}
+
+.about-container {
+  flex: 1 0 auto;
+  width: 100%;
+  max-width: 1830px;
+  margin: 0 auto;
+  padding: 28px 36px 64px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #1b2f5c;
+  margin-bottom: 18px;
+}
+
+.breadcrumb a {
+  color: #1b2f5c;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .slash {
+  color: #a52a2a;
+  font-size: 16px;
+}
+
+.breadcrumb .current {
+  color: #1b2f5c;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* Yaratuvchilar bloki */
+.creators-section {
+  margin-bottom: 36px;
+}
+
+.creators-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #223B6D;
+}
+
+.creators-grid {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.creators-thumb {
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(20, 37, 74, 0.14);
+  background-color: #e2e8f0;
+}
+
+.creators-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.creators-text {
+  text-align: start;
+  font-size: 20px;
+  line-height: 1.65;
+  font-weight: 600;
+  color: #89001A;
+}
+
+/* Ajratuvchi chiziq */
+.section-divider {
+  border: none;
+  border-top: 1px solid #223b6d;
+  margin: 28px 0 32px;
+}
+
+/* Ishtirokchilar */
+.participants-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #223B6D;
+  margin-bottom: 24px;
+}
+
+.participants-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+
+.participant-card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(20, 37, 74, 0.12);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.participant-thumb {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-color: #e2e8f0;
+}
+
+.participant-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+
+.participant-body {
+  padding: 16px 14px 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.participant-name {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #223b6d;
+}
+
+.participant-role {
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 600;
+  color: #791324;
+}
+
+/* Responsive */
+@media (max-width: 1280px) {
+  .participants-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .creators-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .creators-title {
+    font-size: 26px;
+  }
+
+  .creators-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-container {
+    padding: 20px 16px 48px;
+  }
+
+  .participants-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .participant-thumb {
+    height: 180px;
+  }
+}
+
+@media (max-width: 420px) {
+  .participants-grid {
+    grid-template-columns: 1fr;
+  }
+}

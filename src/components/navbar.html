@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/headers/headers.css" />
+  </head>
+  <body>
+    <nav id="nav_bar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="/src/pages/home page/index.html" class="logo">
+          <img src="/src/assets/images/jadidlar sozi.svg" alt="Jadidlar" />
+        </a>
+
+        <!-- Menu -->
+        <ul class="nav-menu">
+          <li><a href="/src/pages/jadidlar/index.html">JADIDLAR</a></li>
+
+          <li class="dropdown">
+            <a href="/src/pages/manbalar/arxiv-xujjatlar/"
+              >MANBALAR <span>⌄</span></a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/src/pages/manbalar/arxiv-xujjatlar/"
+                  >Arxiv hujjatlari</a
+                >
+              </li>
+              <li><a href="/src/pages/manbalar/matbuot/">Matbuot</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">IZLANISHLAR <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/src/pages/izlanishlar/asarlar/" class="nav-item"
+                  >Asarlar</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/src/pages/izlanishlar/maqolalar/"
+                  id="maqolalar"
+                  class="nav-item"
+                  >Maqolalar</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/src/pages/izlanishlar/dissertatsiyalar/"
+                  class="nav-item"
+                  >Dissertatsiyalar</a
+                >
+              </li>
+              <li>
+                <a href="/src/pages/izlanishlar/esdaliklar/" class="nav-item"
+                  >Esdaliklar</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">TIL VA IMLO <span>⌄</span></a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a
+                  href="/src/pages/til%20va%20imlo/asarlar/index.html#asarlar"
+                  class="til-imlo-nav"
+                  data-category="asarlar"
+                >
+                  Asarlar
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/src/pages/til%20va%20imlo/asarlar/index.html#maqolalar"
+                  class="til-imlo-nav"
+                  data-category="maqolalar"
+                >
+                  Maqolalar
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/src/pages/til%20va%20imlo/asarlar/index.html#hikmatlar"
+                  class="til-imlo-nav"
+                  data-category="hikmatlar"
+                >
+                  Hikmatlar
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">TURKISTON MUXTORIYATI <span>⌄</span></a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a
+                  href="/src/pages/turkiston%20muxtoriyati/asarlar/index.html#asarlar"
+                  class="turkiston-nav"
+                  data-category="asarlar"
+                >
+                  Asarlar
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/src/pages/turkiston%20muxtoriyati/asarlar/index.html#maqolalar"
+                  class="turkiston-nav"
+                  data-category="maqolalar"
+                >
+                  Maqolalar
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/src/pages/turkiston%20muxtoriyati/asarlar/index.html#sherlar"
+                  class="turkiston-nav"
+                  data-category="sherlar"
+                >
+                  She'rlar
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/src/pages/turkiston%20muxtoriyati/asarlar/index.html#esdaliklar"
+                  class="turkiston-nav"
+                  data-category="esdaliklar"
+                >
+                  Esdaliklar
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">VOQEALAR <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a
+                  href="/src/pages/voqealar/yangiliklar/index.html"
+                  class="voqealar-nav"
+                  data-voqealar="yangiliklar"
+                >
+                  Yangiliklar
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/src/pages/voqealar/yig'inlar/index.html"
+                  class="voqealar-nav"
+                  data-voqealar="yiginlar"
+                >
+                  Yig'inlar
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/src/pages/voqealar/seminarlar/index.html"
+                  class="voqealar-nav"
+                  data-voqealar="seminarlar"
+                >
+                  Seminarlar
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">KO'R-ESHIT-O'QI <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Suratlar</a></li>
+              <li><a href="#">Ko'ruvlar</a></li>
+              <li><a href="#">Eshituvlar</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/src/pages/biz haqimizda/">BIZ HAQIMIZDA</a></li>
+        </ul>
+
+        <!-- Right actions -->
+        <div class="nav-actions">
+          <button class="search-btn" type="button" aria-label="Qidirish">
+            ⌕
+          </button>
+
+          <div class="language">
+            <a href="#">O'z <span>⌄</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">O'zbek</a></li>
+              <li><a href="#">Русский</a></li>
+              <li><a href="#">English</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>

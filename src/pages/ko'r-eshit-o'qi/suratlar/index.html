@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://cdn-icons-png.flaticon.com/512/1183/1183807.png"
+    />
+    <title>Suratlar — Jadidlar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="suratlar.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <main class="gallery-container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../../home page/index.html">BOSH SAHIFA</a>
+        <span class="slash">/</span>
+        <span class="current">SURATLAR</span>
+        <span class="slash">/</span>
+      </nav>
+
+      <section id="photosGrid" class="photos-grid"></section>
+      <div id="pagination" class="pagination"></div>
+    </main>
+
+    <!-- Rasmni kattalashtirib ko'rish oynasi -->
+    <div id="photoModal" class="photo-modal" aria-hidden="true">
+      <div class="photo-modal-backdrop" id="photoModalBackdrop"></div>
+      <div class="photo-modal-content">
+        <button
+          type="button"
+          class="photo-modal-close"
+          id="photoModalClose"
+          aria-label="Yopish"
+        >
+          &times;
+        </button>
+        <img id="photoModalImg" src="" alt="" />
+        <p id="photoModalCaption" class="photo-modal-caption"></p>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="suratlar.js"></script>
+  </body>
+</html>

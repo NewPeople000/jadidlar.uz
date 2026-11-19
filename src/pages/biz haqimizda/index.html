@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link
+  rel="icon"
+  type="image/svg+xml"
+  href="https://cdn-icons-png.flaticon.com/512/1183/1183807.png"
+/>
+  <title>Biz haqimizda — Jadidlar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="biz-haqimizda.css" />
+</head>
+<body>
+  <div id="navbar-placeholder"></div>
+
+  <main class="about-container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../home page/index.html">BOSH SAHIFA</a>
+      <span class="slash">/</span>
+      <span class="current">BIZ HAQIMIZDA</span>
+      <span class="slash">/</span>
+    </nav>
+
+    <section class="creators-section">
+      <h1 class="creators-title">"Jadidlar.uz" platformasi yaratuvchilari</h1>
+      <div class="creators-grid">
+        <div class="creators-thumb">
+          <img
+            id="creatorsImage"
+            src="https://backend.jadidlar.uz/media/images/D48A0841.JPG"
+            alt="Jadidlar.uz platformasi yaratuvchilari"
+            onerror="this.src='https://via.placeholder.com/460x280?text=Jadidlar'"
+          />
+        </div>
+        <p id="creatorsDescription" class="creators-text"></p>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section class="participants-section">
+      <h2 class="participants-title">Ishtirokchilar</h2>
+      <div id="participantsGrid" class="participants-grid"></div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script src="/src/components/layout.js"></script>
+  <script src="biz-haqimizda.js"></script>
+</body>
+</html>

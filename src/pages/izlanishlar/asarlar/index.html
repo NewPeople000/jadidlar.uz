@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://cdn-icons-png.flaticon.com/512/1183/1183807.png"
+    />
+    <title>Izlanishlar - Jadidlar</title>
+    <link rel="stylesheet" href="/src/pages/jadidlar/jadidlar.css" />
+    <link rel="stylesheet" href="asarlar.css" />
+  </head>
+  <body>
+    <div id="navbar-placeholder"></div>
+
+    <!-- Asosiy kontent -->
+    <main style="max-width: 1750px; margin: 40px auto; padding: 0 20px">
+      <!-- Breadcrumb va Qidiruv -->
+      <div style="margin-bottom: 25px">
+        <p class="breadcrumb-text">
+          Bosh sahifa / Izlanishlar /
+          <span class="breadcrumb-highlight">ASARLAR</span>
+        </p>
+
+        <!-- Qidiruv paneli -->
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Izlanishlar bo'yicha qidirish..."
+          />
+          <button class="search-icon-btn" title="Qidirish">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Kategoriyalar (Tablar) -->
+      <div class="izlanishlar-tabs">
+        <a href="#" class="izlanishlar-tab active" data-category="asarlar"
+          >Asarlar</a
+        >
+        <a href="#" class="izlanishlar-tab" data-category="maqolalar"
+          >Maqolalar</a
+        >
+        <a href="#" class="izlanishlar-tab" data-category="dissertatsiyalar"
+          >Dissertatsiyalar</a
+        >
+        <a href="#" class="izlanishlar-tab" data-category="esdaliklar"
+          >Esdaliklar</a
+        >
+      </div>
+
+      <!-- Cardlar Grid joyi -->
+      <div id="izlanishlarGrid" class="books-grid">
+        <!-- JavaScript orqali cardlar tushadi -->
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination-container">
+        <button class="page-btn">&lt;&lt;</button>
+        <button class="page-number active">1</button>
+        <button class="page-number">2</button>
+        <button class="page-number">3</button>
+        <button class="page-btn">...</button>
+        <button class="page-number">8</button>
+        <button class="page-btn">&gt;&gt;</button>
+      </div>
+    </main>
+    <div id="footer-placeholder"></div>
+
+    <script src="/src/components/layout.js"></script>
+    <script src="asarlar.js"></script>
+  </body>
+</html>

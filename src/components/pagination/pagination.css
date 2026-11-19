@@ -1,0 +1,59 @@
+.jadids-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.page-btn,
+.page-arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1.5px solid #2b4c7e;
+  background-color: transparent;
+  color: #1b355a;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  user-select: none;
+}
+
+/* Aktiv sahifa */
+.page-btn.active {
+  background-color: #2b4c7e;
+  color: #ffffff;
+  border-color: #2b4c7e;
+  box-shadow: 0 4px 10px rgba(43, 76, 126, 0.3);
+}
+
+/* Hover effektlari */
+.page-btn:hover:not(.active):not(:disabled),
+.page-arrow:hover:not(:disabled) {
+  background-color: rgba(43, 76, 126, 0.1);
+}
+
+/* Nuqtalar (...) */
+.page-dots {
+  border-color: #2b4c7e;
+  cursor: default;
+  letter-spacing: 1px;
+}
+
+/* O'qlar (<< va >>) */
+.page-arrow {
+  border: none;
+  font-weight: 800;
+  color: #2b4c7e;
+}
+
+.page-arrow:disabled {
+  color: #a0b0c5;
+  cursor: not-allowed;
+}

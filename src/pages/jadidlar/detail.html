@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="pageTitle">Jadid haqida</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://cdn-icons-png.flaticon.com/512/1183/1183807.png"
+    />
+
+    <link rel="stylesheet" href="/src/headers/headers.css" />
+    <link rel="stylesheet" href="jadidlar.css" />
+    <style>
+      /* Rasm va matnning joylashuvi uchun maxsus qoida */
+      .jadid-detail-content img.float-img {
+        float: left;
+        width: 400px;
+        height: 400px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+        object-fit: cover;
+        aspect-ratio: 3/4;
+        margin-right: 40px;
+        margin-bottom: 20px;
+      }
+      .jadid-detail-content::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar-placeholder"></div>
+
+    <main id="jadidlar-main">
+      <section class="jadids-page-section">
+        <div
+          class="jadids-container"
+          style="max-width: 1800px; margin: 0 auto; padding: 0 30px"
+        >
+          <!-- Breadcrumb -->
+          <div class="jadids-breadcrumb" style="margin-bottom: 20px">
+            <a href="/src/pages/home page/index.html">BOSH SAHIFA</a> <b>/</b>
+            <a href="/src/pages/jadidlar/index.html">JADIDLAR</a> <b>/</b>
+            <span id="breadcrumbName">Batafsil</span>
+          </div>
+          <!-- Ism va Sana -->
+          <div style="margin-bottom: 25px">
+            <h1
+              id="detailName"
+              style="
+                color: #1b355a;
+                font-size: 36px;
+                font-weight: 800;
+                margin-bottom: 8px;
+                line-height: 1.2;
+              "
+            ></h1>
+            <p
+              id="detailDates"
+              style="color: #2b4c7e; font-size: 18px; font-weight: 700"
+            ></p>
+          </div>
+
+          <!-- Tabs -->
+          <div
+            class="jadid-tabs"
+            style="
+              display: flex;
+              gap: 25px;
+              border-bottom: 2px solid #e0e6ed;
+              margin-bottom: 35px;
+              padding-bottom: 10px;
+            "
+          >
+            <a
+              href="#"
+              id="tabJadidHaqida"
+              style="
+                color: #2b4c7e;
+                font-weight: 700;
+                text-decoration: none;
+                border-bottom: 3px solid #2b4c7e;
+                padding-bottom: 10px;
+                margin-bottom: -13px;
+              "
+              >Jadid haqida</a
+            >
+            <a
+              href="#"
+              id="tabAsarlar"
+              style="color: #8a99ad; font-weight: 600; text-decoration: none"
+              >Asarlar</a
+            >
+            <a
+              href="#"
+              id="tabMaqolalar"
+              style="color: #8a99ad; font-weight: 600; text-decoration: none"
+              >Maqolalar</a
+            >
+            <a
+              href="#"
+              id="tabSherlar"
+              style="color: #8a99ad; font-weight: 600; text-decoration: none"
+              >She'rlar</a
+            >
+            <a
+              href="#"
+              id="tabEsdaliklar"
+              style="color: #8a99ad; font-weight: 600; text-decoration: none"
+              >Esdaliklar</a
+            >
+            <a
+              href="#"
+              id="tabHikmatli"
+              style="color: #8a99ad; font-weight: 600; text-decoration: none"
+              >Hikmatli so'zlar</a
+            >
+          </div>
+
+          <!-- Jadid haqida (Rasm va Biografiya) -->
+          <div id="bioSection" class="jadid-detail-content">
+            <img id="detailImage" class="float-img" src="" alt="" />
+            <div
+              id="detailBio"
+              style="color: #2c3e50; font-size: 17px; line-height: 1.85"
+            ></div>
+          </div>
+
+          <!-- Asarlar va Maqolalar cardlari chiqadigan umumiy joy -->
+          <div id="contentSection"></div>
+
+          <!-- Asosiy kontent chiqadigan joy (Bio ham, Asarlar grid ham shu yerda almashadi) -->
+          <div id="dynamicTabContent">
+            <!-- Bu yerga ma'lumotlar JS orqali tushadi -->
+          </div>
+
+          <!-- Asosiy Detail qismi -->
+          <div class="jadid-detail-wrapper">
+            <!-- Ism va Sana yuqorida turadi -->
+            <div style="margin-bottom: 25px">
+              <h1
+                id="detailName"
+                style="
+                  color: #1b355a;
+                  font-size: 36px;
+                  font-weight: 800;
+                  margin-bottom: 8px;
+                  line-height: 1.2;
+                "
+              ></h1>
+              <p
+                id="detailDates"
+                style="color: #2b4c7e; font-size: 18px; font-weight: 700"
+              ></p>
+            </div>
+
+            <!-- Rasm va Matn birgalikda (Matn rasm yonidan boshlanib, rasm tugagach tagidan to'liq eniga davom etadi) -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/src/components/layout.js"></script>
+    <script src="detail.js"></script>
+  </body>
+</html>

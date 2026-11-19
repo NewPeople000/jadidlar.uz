@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://cdn-icons-png.flaticon.com/512/1183/1183807.png"
+    />
+    <title>Ko‘ruvlar — Jadidlar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="koruvlar.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <main class="videos-container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../../../home page/index.html">BOSH SAHIFA</a>
+        <span class="slash">/</span>
+        <a href="index.html">KO‘RUVLAR</a>
+        <span class="slash">/</span>
+        <span id="breadcrumbTitle" class="current"></span>
+      </nav>
+
+      <section class="videos-layout">
+        <!-- Chap taraf: asosiy video ko'rish maydoni -->
+        <div class="main-player-panel">
+          <div id="playerStage" class="player-stage"></div>
+        </div>
+
+        <!-- O'ng taraf: videolar ro'yxati -->
+        <aside
+          id="videoPlaylist"
+          class="video-playlist"
+          aria-label="Videolar ro'yxati"
+        ></aside>
+      </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="koruvlar.js"></script>
+  </body>
+</html>

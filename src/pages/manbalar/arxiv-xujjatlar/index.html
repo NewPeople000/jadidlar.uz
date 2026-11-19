@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://cdn-icons-png.flaticon.com/512/1183/1183807.png"
+    />
+    <title>Arxiv hujjatlari - Jadidlar</title>
+    <link rel="stylesheet" href="arxiv-xujjatlar.css" />
+    <!-- Asosiy stil faylingiz -->
+    <link rel="stylesheet" href="/src/pages/jadidlar/jadidlar.css" />
+    <!-- Arxiv uchun maxsus stillar -->
+  </head>
+  <body>
+    <div id="navbar-placeholder"></div>
+
+    <!-- Asosiy kontent -->
+    <main style="max-width: 1750px; margin: 40px auto; padding: 0 20px">
+      <!-- Breadcrumb va Qidiruv -->
+      <div style="margin-bottom: 30px">
+        <p
+          style="
+            color: #8a99ad;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 20px;
+          "
+        >
+          BOSH SAHIFA <b>/</b> MANBALAR <b>/</b> <span style="color: #13366E">RO'YXAT</span>
+        </p>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Hujjatlar bo'yicha qidirish...">
+            <button class="search-icon-btn" title="Qidirish">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+
+      <!-- Tablar (Ro'yxat / Skaner) -->
+      <div
+        style="
+          display: flex;
+          gap: 20px;
+          border-bottom: 2px solid #e0e6ed;
+          margin-bottom: 30px;
+          padding-bottom: 10px;
+        "
+      >
+        <a
+          href="#"
+          id="tabRoyxat"
+          style="
+            color: #2b4c7e;
+            font-weight: 700;
+            text-decoration: none;
+            border-bottom: 3px solid #2b4c7e;
+            padding-bottom: 10px;
+            margin-bottom: -12px;
+          "
+          >Ro'yxat</a
+        >
+        <a
+          href="#"
+          id="tabSkaner"
+          style="color: #8a99ad; font-weight: 600; text-decoration: none"
+          >Skaner</a
+        >
+      </div>
+
+      <!-- Cardlar chiqadigan Grid joyi -->
+      <div id="archivesGrid" class="books-grid">
+        <!-- JavaScript orqali cardlar dinamik ravishda tushadi -->
+      </div>
+
+      <!-- Pagination (Sahifalash) -->
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+          margin-top: 50px;
+          margin-bottom: 40px;
+        "
+      >
+        <button
+          class="page-btn"
+          style="
+            background: transparent;
+            border: none;
+            color: #8a99ad;
+            font-weight: bold;
+            cursor: pointer;
+          "
+        >
+          &lt;&lt;
+        </button>
+        <button
+          class="page-btn active"
+          style="
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: #2b4c7e;
+            color: #fff;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+          "
+        >
+          1
+        </button>
+        <button
+          class="page-btn"
+          style="
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: transparent;
+            color: #64748b;
+            border: 1px solid #cbd5e1;
+            font-weight: 600;
+            cursor: pointer;
+          "
+        >
+          2
+        </button>
+        <button
+          class="page-btn"
+          style="
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: transparent;
+            color: #64748b;
+            border: 1px solid #cbd5e1;
+            font-weight: 600;
+            cursor: pointer;
+          "
+        >
+          3
+        </button>
+        <button
+          class="page-btn"
+          style="
+            background: transparent;
+            border: none;
+            color: #8a99ad;
+            font-weight: bold;
+            cursor: pointer;
+          "
+        >
+          ...
+        </button>
+        <button
+          class="page-btn"
+          style="
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: transparent;
+            color: #64748b;
+            border: 1px solid #cbd5e1;
+            font-weight: 600;
+            cursor: pointer;
+          "
+        >
+          5
+        </button>
+        <button
+          class="page-btn"
+          style="
+            background: transparent;
+            border: none;
+            color: #8a99ad;
+            font-weight: bold;
+            cursor: pointer;
+          "
+        >
+          &gt;&gt;
+        </button>
+      </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/src/components/layout.js"></script>
+    <script src="arxiv-xujjatlar.js"></script>
+  </body>
+</html>

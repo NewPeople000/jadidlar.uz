@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://cdn-icons-png.flaticon.com/512/1183/1183807.png"
+    />
+    <title>Til va imlo - Jadidlar</title>
+    <link rel="stylesheet" href="asarlar.css" />
+  </head>
+  <body>
+    <div id="navbar-placeholder"></div>
+
+    <main class="container">
+      <div style="margin-bottom: 25px">
+        <p class="breadcrumb-text">
+          Bosh sahifa / Til va imlo /
+          <span class="breadcrumb-highlight">ASARLAR</span>
+        </p>
+
+        <div class="search-container">
+          <input
+            id="searchInput"
+            type="text"
+            class="search-input"
+            placeholder="Til va imlo bo'yicha qidirish..."
+          />
+          <button class="search-icon-btn">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tablar -->
+      <div class="til-tabs">
+        <a class="til-tab active" data-category="asarlar">Asarlar</a>
+        <a class="til-tab" data-category="maqolalar">Maqolalar</a>
+        <a class="til-tab" data-category="hikmatlar">Hikmatlar</a>
+      </div>
+
+      <!-- Cardlar chiqadigan joy -->
+      <div id="tilGrid" class="books-grid"></div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/src/components/layout.js"></script>
+    <script src="asarlar.js"></script>
+  </body>
+</html>

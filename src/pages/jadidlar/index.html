@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadidlar</title>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://cdn-icons-png.flaticon.com/512/1183/1183807.png"
+    />
+    <link rel="stylesheet" href="/src/headers/headers.css" />
+    <!-- Jadidlar sahifasining o'z stili -->
+    <link rel="stylesheet" href="jadidlar.css" />
+    <link rel="stylesheet" href="/src/components/pagination/pagination.css">
+  </head>
+  <body>
+    <div id="navbar-placeholder"></div>
+
+    <main id="jadidlar-main">
+      <section class="jadids-page-section">
+        <div class="jadids-container">
+          <!-- Breadcrumb -->
+          <div class="jadids-breadcrumb">
+            <a href="/src/pages/home page/index.html">BOSH SAHIFA</a> <b>/</b>
+            <span>JADIDLAR</span> <b>/</b>
+          </div>
+
+          <!-- Search Bar -->
+          <div class="jadids-search-wrapper">
+            <div class="jadids-search-box">
+              <input
+                type="text"
+                placeholder="Qidirish..."
+                class="jadids-search-input"
+              />
+              <button class="jadids-search-btn">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Grid konteyneri (Cardlar shu yerga JS orqali avtomatik tushadi) -->
+          <section class="jadids-grid-section">
+            <div class="jadids-grid" id="jadidsGridContainer">
+              <!-- HTML ichidan cardlarni o'chirdik, chunki ularni jadidlar.js boshqaradi -->
+            </div>
+          </section>
+
+          <!-- Pagination konteyneri -->
+          <div id="pagination-container"></div>
+
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/src/components/pagination/pagination.js"></script>
+    <script src="/src/components/layout.js"></script>
+    <script src="jadidlar.js"></script>
+  </body>
+</html>

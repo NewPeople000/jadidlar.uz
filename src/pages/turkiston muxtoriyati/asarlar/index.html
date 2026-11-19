@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://cdn-icons-png.flaticon.com/512/1183/1183807.png"
+    />
+    <title>Turkiston muxtoriyati - Jadidlar</title>
+    <link rel="stylesheet" href="asarlar.css" />
+  </head>
+  <body>
+    <div id="navbar-placeholder"></div>
+
+    <main class="container">
+      <div style="margin-bottom: 25px">
+        <p class="breadcrumb-text">
+          Bosh sahifa / Turkiston muxtoriyati /
+          <span class="breadcrumb-highlight">ASARLAR</span>
+        </p>
+
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Turkiston muxtoriyati bo'yicha qidirish..."
+          />
+          <button class="search-icon-btn" type="button" aria-label="Qidirish">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tablar -->
+      <div class="muxtoriyat-tabs">
+        <a href="#" class="muxtoriyat-tab active" data-category="asarlar"
+          >Asarlar</a
+        >
+        <a href="#" class="muxtoriyat-tab" data-category="maqolalar"
+          >Maqolalar</a
+        >
+        <a href="#" class="muxtoriyat-tab" data-category="sherlar">She'rlar</a>
+        <a href="#" class="muxtoriyat-tab" data-category="esdaliklar"
+          >Esdaliklar</a
+        >
+      </div>
+
+      <!-- Cardlar chiqadigan joy -->
+      <div id="muxtoriyatGrid" class="books-grid"></div>
+
+      <!-- Pagination -->
+      <div class="pagination-container">
+        <button class="page-btn" type="button">&lt;&lt;</button>
+        <button class="page-number active" type="button">1</button>
+        <button class="page-number" type="button">2</button>
+        <button class="page-number" type="button">3</button>
+        <button class="page-btn" type="button">...</button>
+        <button class="page-number" type="button">10</button>
+        <button class="page-btn" type="button">&gt;&gt;</button>
+      </div>
+    </main>
+    <div id="footer-placeholder"></div>
+
+    <script src="/src/components/layout.js"></script>
+
+    <script src="asarlar.js"></script>
+  </body>
+</html>
